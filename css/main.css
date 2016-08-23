@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.grid{
+  width: 100%;
+}
+
+.grid:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.col{
+  width: 33.33%;
+  margin: 0;
+  float: left;
+}
+
+.box {
+  width: 33.33%;
+  border: 10px solid grey;
+  height: 100px;
+  margin: 0;
+}
+
+.left {
+  border-left: none;
+}
+
+.right {
+  border-right: none;
+}
+
+.top {
+  border-top: none;
+}
+
+.bottom {
+  border-bottom: none;
+}
